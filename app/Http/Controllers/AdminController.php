@@ -13,6 +13,11 @@ class AdminController extends Controller
                 $data =  $required->input();
                     if(Auth::attempt(['username'=>$data['username'],'password'=>$data['password'],'admin'=>'1'])){
                         echo "Success"; die;
+                        echo "Success"; die;
+                        echo "Success"; die;
+                        echo "Success"; die;
+                        echo "Success"; die;
+
                     }else{
                         echo "Failed"; die;
                     }
